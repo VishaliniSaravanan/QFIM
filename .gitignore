@@ -1,0 +1,46 @@
+# Python and notebook cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter / IDE
+.vscode/
+.idea/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Model and output artifacts
+QFIM_VQC_Results_v2/
+results/
+out/
+checkpoints/
+
+# Large data or generated files
+*.csv
+*.xlsx
+*.parquet
+*.npy
+*.npz
+*.pt
+*.pkl
+
+# Environment and config secrets
+.env
+.env.*
