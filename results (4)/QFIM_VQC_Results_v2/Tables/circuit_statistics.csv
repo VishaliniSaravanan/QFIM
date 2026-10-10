@@ -1,0 +1,10 @@
+Metric,Value
+Qubits,4
+Depth,17
+Total gate count,44
+Trainable parameters (p),24
+Data parameters,4
+  gate:cx,8
+  gate:rx,12
+  gate:ry,12
+  gate:rz,12

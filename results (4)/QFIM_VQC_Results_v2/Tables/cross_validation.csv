@@ -1,0 +1,6 @@
+Model,CV Accuracy,CV F1
+Logistic Regression,96.7% ± 0.4%,0.973 ± 0.003
+SVM (RBF),95.6% ± 1.1%,0.965 ± 0.009
+Random Forest,93.8% ± 1.8%,0.951 ± 0.014
+Gradient Boosting,93.9% ± 1.6%,0.951 ± 0.013
+VQC (QNG),84.4% ± 3.0%,n/a (see per-fold accuracy)

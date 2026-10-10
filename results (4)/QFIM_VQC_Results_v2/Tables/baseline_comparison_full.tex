@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & Accuracy (%) & Precision (%) & Recall (%) & Specificity (%) & F1-Score & ROC-AUC \\
+\midrule
+Logistic Regression & 96.491 & 97.222 & 97.222 & 95.238 & 0.972 & 0.992 \\
+SVM (RBF) & 96.491 & 95.946 & 98.611 & 92.857 & 0.973 & 0.993 \\
+Random Forest & 92.105 & 94.366 & 93.056 & 90.476 & 0.937 & 0.985 \\
+Gradient Boosting & 94.737 & 94.595 & 97.222 & 90.476 & 0.959 & 0.984 \\
+Quantum Kernel SVM (QSVM) & 85.088 & 85.714 & 91.667 & 73.810 & 0.886 & 0.908 \\
+Basic QCNN & 89.474 & 92.857 & 90.278 & 88.095 & 0.915 & 0.892 \\
+Proposed QNG-VQC (tau=0.50, default) & 81.579 & 91.803 & 77.778 & 88.095 & 0.842 & 0.924 \\
+Proposed QNG-VQC (tau*=0.38, tuned) & 88.596 & 89.333 & 93.056 & 80.952 & 0.912 & 0.924 \\
+\bottomrule
+\end{tabular}
