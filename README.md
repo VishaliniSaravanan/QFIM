@@ -45,6 +45,4 @@ The notebook installs the required Python packages automatically, including:
 - The project is intended for research and reproducibility.
 - Generated result directories may be large and are best excluded from version control.
 
-## Repository status
 
-This repository is set up for a clean Git push with a professional project structure and a basic ignore list for generated files.
